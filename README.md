@@ -1,8 +1,8 @@
 To set up the Project:
 
-1. Open a Terminal Window
+1. open a Terminal Window
 
-2. Navigate to 'backend/'
+2. navigate to 'backend/'
 
 3. create virtual environment 
 
@@ -22,14 +22,14 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-    (log in to 'localhost:8000' and create some initial users and blog-entries)
+log in to 'localhost:8000' and create some initial users and blog-entries
 
 7. run django server 
 ```sh
 python manage.py runserver
 ```
 
-8. In a new Terminal navigate to 'frontend/'
+8. in a new Terminal navigate to 'frontend/'
 
 9. install frontend requirements 
 ```sh
