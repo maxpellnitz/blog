@@ -40,3 +40,4 @@ npm install --include dev
 ```sh
 npm run dev
 ```
+12. now, when both servers are running, you can open 'localhost:5173'
