@@ -50,6 +50,7 @@ class Query(graphene.ObjectType):
             .get(slug=slug)
         )
 
+    # this method is not used, posts are filtered by author in frontend/src/AuthorView.py and frontend/src/components/PostView.py
     def resolve_posts_by_author(root, info: ResolveInfo, username: str) -> QuerySet:
         return (
             models.Post.objects.prefetch_related("tags")
