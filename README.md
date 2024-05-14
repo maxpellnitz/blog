@@ -22,21 +22,21 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-log in to 'localhost:8000' and create some initial users and blog-entries
+7. log in to 'localhost:8000' and create some initial users and blog-entries
 
-7. run django server 
+8. run django server 
 ```sh
 python manage.py runserver
 ```
 
-8. in a new Terminal navigate to 'frontend/'
+9. in a new Terminal navigate to 'frontend/'
 
-9. install frontend requirements 
+10. install frontend requirements 
 ```sh
 npm install --include dev
 ```
 
-10. run the vite dev server
+11. run the vite dev server
 ```sh
 npm run dev
 ```
